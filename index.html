@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <title>Basketball Counter</title>
+</head>
+<body>
+    <section class="container">
+        <div class = "score">
+            <h3>HOME</h3>
+            <p class="scorecard" id="home-score">0</p>
+            <div class="btns">
+                <button class="btn" id="home-add-one" onclick="home_add_one()">+1</button>
+                <button class="btn" id="home-add-two" onclick="home_add_two()">+2</button>
+                <button class="btn" id="home-add-three" onclick="home_add_three()">+3</button>
+            </div>
+        </div>
+        <div class = "score" id="new-game">
+            
+            <div class="period">
+                <h4>PERIOD</h4>
+                <div id="period-container">
+                    <!-- <button class="period-btn" onclick="period_decrease()">-</button> -->
+                    <p class="scorecard" id="period-scorecard">0</p>
+                    
+                </div>
+            </div>
+            <div class="btns" id="new-game-div">
+                <button class="new-game-btn" onclick="period_increase()">Next period</button>
+                <button class="new-game-btn" onclick="refreshPage()">New game</button>
+            </div>
+        </div>
+        <div class = "score">
+            <h3>GUEST</h3>
+            <p class="scorecard" id="guest-score">0</p>
+            <div class="btns">
+                <button class="btn" id="guest-add-one" onclick="guest_add_one()">+1</button>
+                <button class="btn" id="guest-add-two" onclick="guest_add_two()">+2</button>
+                <button class="btn" id="guest-add-three" onclick="guest_add_three()">+3</button>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="container">
+        <div class="period">
+            <h4>PERIOD</h4>
+            <div id="period-container">
+                <button class="period-btn">-</button>
+                <p class="scorecard" id="period-scorecard">0</p>
+                <button class="period-btn">+</button>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <script src="action.js">
+
+    </script>
+</body>
+
+<footer>
+    <p>Designed and built by <a href="https://github.com/ngeru19" target="_blank_">ngeru19</a></p>
+</footer>
+</html>
