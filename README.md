@@ -1,1 +1,20 @@
 # basketballScorecard
+
+Build mini-site where you can maintain basketball scorecard.
+
+## Requirements 
+
+- display scores of home and guest teams
+- add buttons to increment/decrement score
+- display current period
+- add button to start new game
+
+## Built with 
+
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Grid, CSS Flexbox
+- JavaScript
+- Mobile-first workflow
+- Light and dark version
+- Figma design files from Scrimba
