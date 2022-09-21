@@ -1,4 +1,4 @@
-# basketballScorecard
+# Basketball scorecard
 
 Build mini-site where you can maintain basketball scorecard.
 
@@ -13,8 +13,5 @@ Build mini-site where you can maintain basketball scorecard.
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid, CSS Flexbox
+- CSS Flexbox
 - JavaScript
-- Mobile-first workflow
-- Light and dark version
-- Figma design files from Scrimba
