@@ -5,7 +5,7 @@ Build mini-site where you can maintain basketball scorecard.
 ## Requirements 
 
 - display scores of home and guest teams
-- add buttons to increment/decrement score
+- add buttons to increment score
 - display current period
 - add button to start new game
 
