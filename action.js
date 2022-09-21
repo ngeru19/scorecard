@@ -28,18 +28,16 @@ function guest_add_three() {
     guest_score.textContent = guest_count;  
 }
 
-let period_score = document.getElementById("period-scorecard");
-let period_count = 0;
+const period_score = document.getElementById("period-scorecard");
 
 function period_increase() {
-    if (period_count < 4) {
-    period_count += 1;
-    period_score.textContent = period_count;
+    if (period_score.textContent < 4) {
+        period_score.textContent = Number(period_score.textContent) + 1;
     } else {
-        period_count = 0;
+        period_score.textContent = 1;
     }  
 }
 
-function refreshPage(){
+function refreshPage() {
     window.location.reload();
 } 
