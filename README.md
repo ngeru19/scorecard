@@ -15,3 +15,7 @@ Build mini-site where you can maintain basketball scorecard.
 - CSS custom properties
 - CSS Flexbox
 - JavaScript
+
+## Live
+
+visit project [online](https://ngeru19.github.io/scorecard/)
