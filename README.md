@@ -18,4 +18,4 @@ Build mini-site where you can maintain basketball scorecard.
 
 ## Live
 
-visit project [online](https://ngeru19.github.io/scorecard/)
+Check project [online](https://ngeru19.github.io/scorecard/)
