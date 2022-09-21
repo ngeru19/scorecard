@@ -1,4 +1,8 @@
 
+@font-face {
+    font-family: "Cursed Timer";
+    src: url(font/CursedTimerUlil-Aznm.ttf) format("truetype");
+}
 
 body {
     margin: 60px auto;
@@ -6,8 +10,6 @@ body {
     background-color: #3A5A40; 
     color: #DAD7CD;
 }
-
-@import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
 
 .container {
     display:flex;
@@ -29,7 +31,7 @@ body {
     padding-top: 10px;
     text-align: center;
     font-size: 100px;
-    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-family: "Cursed Timer", sans-serif;
 }
 
 .btns {
@@ -46,7 +48,7 @@ body {
     border: 2px solid white;
     background-color: #344E41;
     border-radius: 5px;
-    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-family: "Cursed Timer", sans-serif;
     color: #DAD7CD;
     text-align: center;
     font-size: 30px;
