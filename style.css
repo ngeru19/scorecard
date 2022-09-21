@@ -2,10 +2,12 @@
 
 body {
     margin: 60px auto;
-    font-family: 'Cursed Timer ULiL';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #3A5A40; 
     color: #DAD7CD;
 }
+
+@import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
 
 .container {
     display:flex;
