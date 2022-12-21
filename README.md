@@ -1,6 +1,8 @@
 # Basketball scorecard
 
-Build mini-site where you can maintain basketball scorecard.
+Build mini-site where you can maintain basketball scorecard. 
+
+*NOT* responsive
 
 ## Requirements 
 
