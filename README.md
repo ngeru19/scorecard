@@ -2,7 +2,7 @@
 
 Build mini-site where you can maintain basketball scorecard. 
 
-*NOT* responsive
+**NOT** responsive
 
 ## Requirements 
 
